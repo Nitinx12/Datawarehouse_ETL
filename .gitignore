@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+.venv/
+logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Airflow
+logs/
+airflow.db
+postgres-db-volume/
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# Build artifacts
+dist/
+build/
+*.sqlite
+
+# Coverage
+.coverage
+htmlcov/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
