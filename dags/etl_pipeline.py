@@ -55,3 +55,4 @@ with DAG(
 
     # Define task dependencies
     run_bronze() >> run_silver() >> run_gold() >> send_success_email
+    
